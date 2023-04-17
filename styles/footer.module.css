@@ -11,6 +11,7 @@
 
 .contenido p{
     color: var(--white);
+    white-space: nowrap;
 }
 
 
