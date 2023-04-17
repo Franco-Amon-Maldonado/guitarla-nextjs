@@ -1,0 +1,43 @@
+.footer {
+    padding: 5rem 0;
+    background-color: var(--black);
+    margin-top: 5rem;
+    
+}
+
+.contenido{
+    text-align: center;
+}
+
+.contenido p{
+    color: var(--white);
+}
+
+
+@media(min-width:768px) {
+    .contenido{
+        display: flex;
+        justify-content:space-between;
+    }
+}
+
+.navegacion{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: var(--white);
+    font-weight:900;
+}
+
+@media(min-width:768px) {
+    .navegacion{
+        flex-direction:row;
+        margin: 0;
+    }
+}
