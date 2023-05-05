@@ -13,7 +13,7 @@ function Nosotros() {
             <h1 className="heading">Nosotros</h1>
 
             <div className={styles.contenido}>
-                <Image src='/img/nosotros.jpg' alt='Imagen nosotros' width={1000} height={800}/>
+                <Image src='/img/nosotros.jpg' alt='Imagen nosotros' width='1000' height='800'/>
 
                 <div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta sollicitudin ex. Phasellus non dignissim sapien, in molestie magna. Aenean rhoncus sit amet erat eu viverra. Nullam eget nibh metus. In non risus ultricies, sollicitudin magna vitae, sagittis velit. Suspendisse eu sapien lobortis, tempus ex vitae, pulvinar leo. Nam ornare eu mauris nec malesuada.</p>
