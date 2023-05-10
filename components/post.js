@@ -6,7 +6,7 @@ import { formatearFecha } from "@/utils/helpers";
 function Post({post}) {
     const { titulo, contenido, publishedAt, url, imagen } = post;
     return ( 
-        <article>
+        <article className={styles.container}>
             <Image src={imagen.data.attributes.formats.medium.url} alt={`Imagen blog ${titulo}`} width={600} height={400}></Image>
             <div className={styles.contenido}>
                 <h3 className="">{titulo}</h3>

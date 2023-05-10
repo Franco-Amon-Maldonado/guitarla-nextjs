@@ -2,6 +2,13 @@
     max-width: 80rem;
     margin: 0 auto;
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
 .contenido {
     padding: 1.5rem;
 }
